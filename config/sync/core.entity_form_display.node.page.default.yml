@@ -4,6 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_another_body
+    - field.field.node.page.field_checked
+    - field.field.node.page.field_count
+    - field.field.node.page.field_simple_text
     - node.type.page
   module:
     - text
@@ -27,6 +31,36 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_another_body:
+    weight: 124
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_checked:
+    weight: 122
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_count:
+    weight: 125
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_simple_text:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   promote:
     type: boolean_checkbox
     settings:

@@ -1,0 +1,23 @@
+uuid: 134a2a07-d814-4cb9-a9c8-e5f5ed5ac34f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_count
+    - node.type.page
+id: node.page.field_count
+field_name: field_count
+entity_type: node
+bundle: page
+label: count
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

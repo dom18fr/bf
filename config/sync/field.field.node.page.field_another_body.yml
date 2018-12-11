@@ -1,0 +1,21 @@
+uuid: a6f49b54-79da-4a4a-be2e-ae01e8f687eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_another_body
+    - node.type.page
+  module:
+    - text
+id: node.page.field_another_body
+field_name: field_another_body
+entity_type: node
+bundle: page
+label: another_body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

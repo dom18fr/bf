@@ -1,0 +1,23 @@
+uuid: fdb1baee-1234-4702-9d51-753b2148ef85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checked
+    - node.type.page
+id: node.page.field_checked
+field_name: field_checked
+entity_type: node
+bundle: page
+label: 'i''m checked !'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Checked
+  off_label: Unchecked
+field_type: boolean
